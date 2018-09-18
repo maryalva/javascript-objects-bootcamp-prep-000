@@ -8,4 +8,4 @@ function updatePlaylist(object, artistName, songTitle) {
   return Object.assign({}, object, {[artistName]: songTitle});
 }
 
-updatePlaylist(playlist, 'Phil Ochs', 'Heres to the State of Mississippi');
+updatePlaylist(playlist, "Phil Ochs", 'Heres to the State of Mississippi');
