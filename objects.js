@@ -12,6 +12,7 @@ updatePlaylist(playlist, "Phil Ochs", 'Heres to the State of Mississippi');
 
 
 function removeFromPlaylist(object, artistName) {
+  delete Object.artistName;
   return Object
 }
 
