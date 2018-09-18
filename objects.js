@@ -15,5 +15,5 @@ function removeFromPlaylist(object, artistName) {
   return (delete Object.artistName);
 }
 
-removeFromPlaylist(delete playlist.Slowdive');
+removeFromPlaylist(delete playlist.Slowdive);
 
