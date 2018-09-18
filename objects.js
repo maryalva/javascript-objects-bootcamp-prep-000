@@ -12,7 +12,7 @@ updatePlaylist(playlist, "Phil Ochs", 'Heres to the State of Mississippi');
 
 
 function removeFromPlaylist(object, artistName) {
-  return Object
+
 }
 
 delete playlist.Slowdive;
