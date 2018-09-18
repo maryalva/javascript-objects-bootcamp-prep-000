@@ -16,4 +16,7 @@ function removeFromPlaylist(object, artistName) {
   return Object
 }
 
+removeFromPlaylist(playlist, 'Slowdive')
+
+
 delete playlist.Slowdive;
