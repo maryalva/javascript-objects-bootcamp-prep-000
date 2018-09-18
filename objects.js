@@ -12,7 +12,8 @@ function updatePlaylist(object, artistName, songTitle) {
 
 
 function removeFromPlaylist(object, artistName) {
-  return object(delete object.artistName);
+  delete object.artistName;
+  return object
 }
 
 //removeFromPlaylist(playlist.Slowdive);
