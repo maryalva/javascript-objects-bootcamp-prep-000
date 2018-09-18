@@ -4,16 +4,16 @@ var playlist = {
 };
 
 
-function updatePlaylist(object, artistName, songTitle) {
-  return Object.assign(object, {[artistName]: songTitle});
+function updatePlaylist(playlist, artistName, songTitle) {
+  return Object.assign(playlist, {[artistName]: songTitle});
 }
 
 //updatePlaylist(playlist, "Phil Ochs", 'Heres to the State of Mississippi');
 
 
-function removeFromPlaylist(object, artistName) {
-  delete object[artistName];
-  return object
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist[artistName];
+  return playlist
 }
 
 //removeFromPlaylist(playlist.Slowdive);
